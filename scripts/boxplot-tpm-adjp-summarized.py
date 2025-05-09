@@ -140,8 +140,8 @@ def plot_combined_boxplot(all_data_df, pvals_dict):
 
 # === MAIN execution ===
 
-tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/TPMs/tpms.tsv'
-pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/TPMs/pvals-virus-comparisons.tsv'
+tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/tpms-human.tsv'
+pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-virus-comparisons.tsv'
 
 gene_ids = ['ENSG00000119922', 'ENSG00000182393', 'ENSG00000271503', 'ENSG00000135114', 'ENSG00000173110', 'ENSG00000171855', 'ENSG00000157601']
 

@@ -1,6 +1,7 @@
 id2adjp = {}
 gene_ids = []
-Dir.glob('/Users/martin/projects/2024-04-16-manual-DESeq-Agustina/2025-04-08/results/*vs*/results/*full*.csv').each do |csv|
+#Dir.glob('/Users/martin/projects/2024-04-16-manual-DESeq-Agustina/2025-04-08/results/*vs*/results/*full*.csv').each do |csv|
+Dir.glob('/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/*full.csv').each do |csv|
     basename = File.basename(csv,'_full.csv').split('deseq2_')[1]
     condition1 = basename.split('_vs_')[0]
     condition2 = basename.split('_vs_')[1].chomp
@@ -30,7 +31,7 @@ end
 gene_ids.sort!.uniq!
 puts "#{gene_ids.size} Gene IDs found from the Influenza segments."
 
-output = File.open('pvals-segments.tsv','w')
+output = File.open('input-data/pvals-segments.tsv','w')
 output << "ID"
 id2adjp.keys.each do |comparison|
     output << "\t#{comparison}"

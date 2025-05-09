@@ -147,10 +147,10 @@ def plot_tpm_boxplot(tpm_file, pval_file, gene_id):
 
 #############
 ## Human genes
-#tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/TPMs/tpms.tsv'
-#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/TPMs/pvals.tsv' # this is old, bc we use now all virus comparisons except vs mock 
-#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/TPMs/pvals-all-human-comparisons.tsv' # this is old, bc we use now all virus comparisons except vs mock
-#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/TPMs/pvals-virus-comparisons.tsv'
+#tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/tpms-human.tsv'
+#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals.tsv' # this is old, bc we use now all virus comparisons except vs mock 
+#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-all-human-comparisons.tsv' # this is old, bc we use now all virus comparisons except vs mock
+#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-virus-comparisons.tsv'
 
 #gene_id = 'ENSG00000225855'
 #gene_id = 'ENSG00000107201' # DDX58
@@ -226,8 +226,8 @@ def plot_tpm_boxplot(tpm_file, pval_file, gene_id):
 
 ##############
 ## Influenza Segments - STRAND 2
-#tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/TPMs/counts-tpm-remove-HA-mock2-count1-segments.tsv'
-#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/TPMs/pvals-without-mock-segments.tsv'
+#tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/counts-tpm-remove-HA-mock2-count1-segments.tsv'
+#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-without-mock-segments.tsv'
 
 #gene_id = 'gene-PB2'
 #gene_id = 'gene-HA'
@@ -242,8 +242,8 @@ def plot_tpm_boxplot(tpm_file, pval_file, gene_id):
 
 ##############
 ## Influenza Segments - STRAND 1
-tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/TPMs/counts-tpm-remove-NP_mock1_and_PB1_mock3-count1-segments-strand1.tsv'
-pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/TPMs/pvals-without-mock-segments-strand1.tsv'
+tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/counts-tpm-remove-NP_mock1_and_PB1_mock3-count1-segments-strand1.tsv'
+pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-without-mock-segments-strand1.tsv'
 
 #gene_id = 'gene-PB2'
 #gene_id = 'gene-HA'
