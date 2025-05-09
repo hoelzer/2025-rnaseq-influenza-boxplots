@@ -147,10 +147,10 @@ def plot_tpm_boxplot(tpm_file, pval_file, gene_id):
 
 #############
 ## Human genes
-#tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/tpms-human.tsv'
+tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/tpms-human.tsv'
 #pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals.tsv' # this is old, bc we use now all virus comparisons except vs mock 
 #pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-all-human-comparisons.tsv' # this is old, bc we use now all virus comparisons except vs mock
-#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-virus-comparisons.tsv'
+pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-virus-comparisons.tsv'
 
 #gene_id = 'ENSG00000225855'
 #gene_id = 'ENSG00000107201' # DDX58
@@ -214,13 +214,14 @@ def plot_tpm_boxplot(tpm_file, pval_file, gene_id):
 
 
 
-
+# PLOT ALL GENES (a bit buggy and a lot of files!)
 # Automatically extract all gene IDs from the pvals file
 #pvals_df = pd.read_csv(pval_file, sep="\t")
 #gene_ids = pvals_df['ID'].dropna().unique()
 
 #for gene_id in gene_ids:
 #    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
+
 
 
 
@@ -242,17 +243,17 @@ def plot_tpm_boxplot(tpm_file, pval_file, gene_id):
 
 ##############
 ## Influenza Segments - STRAND 1
-tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/counts-tpm-remove-NP_mock1_and_PB1_mock3-count1-segments-strand1.tsv'
-pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-without-mock-segments-strand1.tsv'
+#tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/counts-tpm-remove-NP_mock1_and_PB1_mock3-count1-segments-strand1.tsv'
+#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-without-mock-segments-strand1.tsv'
 
 #gene_id = 'gene-PB2'
 #gene_id = 'gene-HA'
 #gene_id = 'gene-NS1'
 #gene_id = 'gene-PA'
 
-gene_ids = ['gene-HA','gene-MP','gene-NA','gene-NP','gene-NS1','gene-PA','gene-PB1','gene-PB2']
-for gene_id in gene_ids:
-    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
+#gene_ids = ['gene-HA','gene-MP','gene-NA','gene-NP','gene-NS1','gene-PA','gene-PB1','gene-PB2']
+#for gene_id in gene_ids:
+#    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
 
 
 
