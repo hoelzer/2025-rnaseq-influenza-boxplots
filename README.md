@@ -7,6 +7,8 @@ As input for the scripts, we use
 * TPM values from RNAflow for expression levels (via `featureCounts` and a custom script for TPM calculation)
 * adjusted p-values for significance between pairwise comparisons from RNAflow (via `DESeq2`)
 
+**ATTENTION: If you dont find a gene by name, check https://www.ensembl.org/index.html for the name and the corresponding ENSG ID. The ID should be in the files and then you can add/change the name in the TPM _and_ pvalue file to plot it** 
+
 Below we documented the scripts used for preparing the input tables and the scripts for plotting. We also provide the prepared input files in this repository for reproducibility. 
 
 **Please note** that the scripts will not work out-of-the-box when cloning this repository. Paths need to be adjusted and dependencies (such as `ruby`, `python3` and `panda`) installed. However, the scripts provide information on how the data was wrangled and the plots produced. 

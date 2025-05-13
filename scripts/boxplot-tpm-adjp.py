@@ -213,7 +213,29 @@ pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rn
 #    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
 
 
+############# Genes for Fig4 E panel
 
+# List Agustina:
+# IFIT2 ENSG00000119922
+# CCL5 ENSG00000271503
+# OASL  ENSG00000135114
+# INFB1 ENSG00000171855 alias: IFNB
+# HSPA6 ENSG00000173110
+# HEATR6 ENSG00000068097
+# PLEKHA4 ENSG00000105559
+# Max suggested
+# STAT1 ENSG00000115415
+# STAT2 ENSG00000170581
+# NFKBIA ENSG00000100906
+# DHX58 ENSG00000108771
+# ISG15 ENSG00000187608
+
+gene_ids = ['ENSG00000119922', 'ENSG00000271503', 'ENSG00000135114', 'ENSG00000171855', 'ENSG00000173110', 'ENSG00000068097', 'ENSG00000105559', 'ENSG00000115415', 'ENSG00000170581', 'ENSG00000100906', 'ENSG00000108771', 'ENSG00000187608']
+for gene_id in gene_ids:
+    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
+
+
+###############################################
 # PLOT ALL GENES (a bit buggy and a lot of files!)
 # Automatically extract all gene IDs from the pvals file
 #pvals_df = pd.read_csv(pval_file, sep="\t")
