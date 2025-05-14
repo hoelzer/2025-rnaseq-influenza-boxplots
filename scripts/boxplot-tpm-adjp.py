@@ -252,7 +252,21 @@ pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rn
 #CXCL8 ENSG00000169429
 #CXCL2 ENSG00000081041
 
-gene_ids = ['ENSG00000108771', 'ENSG00000185507', 'ENSG00000187608', 'ENSG00000100906', 'ENSG00000121060', 'ENSG00000185338', 'ENSG00000115415', 'ENSG00000170581', 'ENSG00000143384', 'ENSG00000125740', 'ENSG00000118503', 'ENSG00000169429', 'ENSG00000081041']
+# Cytosolic DNA-sensing pathway
+# CCL5 (already in Figure 3B so dont include it, but here seems to be higher maxTPM value, right? shouldnt be the same?
+# NFKBIA (already in RIG-I path)
+# IFNB1 (in Fig3)
+# IRF7 (in RIG-I path)
+# POLR2L ENSG00000177700 (Human pol. II)
+# CXCL10 (also in Fig 3B)
+# MLKL ENSG00000168404
+# CASP7 ENSG00000165806 which it is involved in apoptosis and also shared by Reass and Swine viruses
+# 
+# Thus, only POLR2L (Human pol. II) and also please MLKL (Mixed Lineage Kinase Domain-Like). 
+# The POLR2L expression is shared by Avian and Reass, but the MLKL expression is shared by Swine and Reass... 
+# This gave the idea of different things being activated in infections with Reass Virus, which may be due to the combination of gene segments it has....
+
+gene_ids = ['ENSG00000177700', 'ENSG00000168404', 'ENSG00000165806', 'ENSG00000108771', 'ENSG00000185507', 'ENSG00000187608', 'ENSG00000100906', 'ENSG00000121060', 'ENSG00000185338', 'ENSG00000115415', 'ENSG00000170581', 'ENSG00000143384', 'ENSG00000125740', 'ENSG00000118503', 'ENSG00000169429', 'ENSG00000081041']
 for gene_id in gene_ids:
     plot_tpm_boxplot(tpm_file, pval_file, gene_id)
 
