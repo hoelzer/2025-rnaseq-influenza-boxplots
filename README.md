@@ -87,7 +87,7 @@ Personal note: New `DESeq2` results are here: `/Users/martin/projects/2024-04-16
 # generate a table with adjusted p-values for all pairwise comparisons (mock-avian, mock-swine, mock-reass, avian-swine, ...) 
 ruby scripts/combine-pvalues-segments-strand1-onlySegments.rb # results in pvals-segments-strand1-onlySegments.tsv
 cd input-data
-awk '{print $1"\t"$2"\t"$5"\t"$7}' pvals-segments-strand1-onlySegments.tsv > pvals-without-mock-segments-strand1-onlySegments.tsv # + renamed N1 to NA and M1 to MP
+awk '{print $1"\t"$3"\t"$5"\t"$7}' pvals-segments-strand1-onlySegments.tsv > pvals-without-mock-segments-strand1-onlySegments.tsv # + renamed N1 to NA and M1 to MP
 
 conda activate pandas
 # change the input files and output in the script:
