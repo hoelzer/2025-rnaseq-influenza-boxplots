@@ -66,7 +66,28 @@ cp counts-tpm-segments-strand1.tsv counts-tpm-remove-NP_mock1_and_PB1_mock3-coun
 
 # generate a table with adjusted p-values for all pairwise comparisons (mock-avian, mock-swine, mock-reass, avian-swine, ...) 
 ruby scripts/combine-pvalues-segments-strand1.rb # results in pvals-segments-strand1.tsv
+cd input-data
 awk '{print $1"\t"$2"\t"$5"\t"$7}' pvals-segments-strand1.tsv > pvals-without-mock-segments-strand1.tsv # + renamed N1 to NA and M1 to MP
+
+conda activate pandas
+# change the input files and output in the script:
+python scripts/boxplot-tpm-adjp.py
+```
+
+### With `--strand 1` counting, reads mapping to (-) strand + only run DESeq2 on the segments w/o including the human strand 2 data for normalization!
+
+Personal note: New `DESeq2` results are here: `/Users/martin/projects/2024-04-16-manual-DESeq-Agustina/2025-05-06-deseq2-for-strand1/results-strand1-only-segments-input`
+
+```bash
+# KEEP THE SAME TPM VALUES: but really the quesiton if they make so much sense... they are calculated by RNAflow together with counting --strand 1 reads for human genes which is not the correct counting for human (probably counted very few reads for human) 
+# Create a table of TPM normalized epxression values for the eight segments 
+#ruby scripts/combine-counts-segments-strand1.rb # results in TPMs/counts-tpm-segments-strand1.tsv
+#cp counts-tpm-segments-strand1.tsv counts-tpm-remove-NP_mock1_and_PB1_mock3-count1-segments-strand1.tsv # bc count 1 only for mock in rep1 and 3 for NP and PB1 genes...  + renamed N1 to NA
+
+# generate a table with adjusted p-values for all pairwise comparisons (mock-avian, mock-swine, mock-reass, avian-swine, ...) 
+ruby scripts/combine-pvalues-segments-strand1-onlySegments.rb # results in pvals-segments-strand1-onlySegments.tsv
+cd input-data
+awk '{print $1"\t"$2"\t"$5"\t"$7}' pvals-segments-strand1-onlySegments.tsv > pvals-without-mock-segments-strand1-onlySegments.tsv # + renamed N1 to NA and M1 to MP
 
 conda activate pandas
 # change the input files and output in the script:

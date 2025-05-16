@@ -147,10 +147,10 @@ def plot_tpm_boxplot(tpm_file, pval_file, gene_id):
 
 #############
 ## Human genes
-tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/tpms-human.tsv'
+#tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/tpms-human.tsv'
 #pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals.tsv' # this is old, bc we use now all virus comparisons except vs mock 
 #pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-all-human-comparisons.tsv' # this is old, bc we use now all virus comparisons except vs mock
-pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-virus-comparisons.tsv'
+#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-virus-comparisons.tsv'
 
 #gene_id = 'ENSG00000225855'
 #gene_id = 'ENSG00000107201' # DDX58
@@ -266,9 +266,9 @@ pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rn
 # The POLR2L expression is shared by Avian and Reass, but the MLKL expression is shared by Swine and Reass... 
 # This gave the idea of different things being activated in infections with Reass Virus, which may be due to the combination of gene segments it has....
 
-gene_ids = ['ENSG00000177700', 'ENSG00000168404', 'ENSG00000165806', 'ENSG00000108771', 'ENSG00000185507', 'ENSG00000187608', 'ENSG00000100906', 'ENSG00000121060', 'ENSG00000185338', 'ENSG00000115415', 'ENSG00000170581', 'ENSG00000143384', 'ENSG00000125740', 'ENSG00000118503', 'ENSG00000169429', 'ENSG00000081041']
-for gene_id in gene_ids:
-    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
+#gene_ids = ['ENSG00000177700', 'ENSG00000168404', 'ENSG00000165806', 'ENSG00000108771', 'ENSG00000185507', 'ENSG00000187608', 'ENSG00000100906', 'ENSG00000121060', 'ENSG00000185338', 'ENSG00000115415', 'ENSG00000170581', 'ENSG00000143384', 'ENSG00000125740', 'ENSG00000118503', 'ENSG00000169429', 'ENSG00000081041']
+#for gene_id in gene_ids:
+#    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
 
 
 ###############################################
@@ -313,6 +313,20 @@ for gene_id in gene_ids:
 #for gene_id in gene_ids:
 #    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
 
+
+##############
+## Influenza Segments - STRAND 1 BUT only DESeq2 results for segments! Still the same TPMs from RNAflow! 
+tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/counts-tpm-remove-NP_mock1_and_PB1_mock3-count1-segments-strand1.tsv'
+pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-without-mock-segments-strand1-onlySegments.tsv'
+
+#gene_id = 'gene-PB2'
+#gene_id = 'gene-HA'
+#gene_id = 'gene-NS1'
+#gene_id = 'gene-PA'
+
+gene_ids = ['gene-HA','gene-MP','gene-NA','gene-NP','gene-NS1','gene-PA','gene-PB1','gene-PB2']
+for gene_id in gene_ids:
+    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
 
 
 
