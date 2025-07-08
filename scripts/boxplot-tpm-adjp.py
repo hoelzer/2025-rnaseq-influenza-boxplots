@@ -316,15 +316,33 @@ def plot_tpm_boxplot(tpm_file, pval_file, gene_id):
 
 ##############
 ## Influenza Segments - STRAND 1 BUT only DESeq2 results for segments! Still the same TPMs from RNAflow! 
-tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/counts-tpm-remove-NP_mock1_and_PB1_mock3-count1-segments-strand1.tsv'
-pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-without-mock-segments-strand1-onlySegments.tsv'
+#tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/counts-tpm-remove-NP_mock1_and_PB1_mock3-count1-segments-strand1.tsv'
+#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-without-mock-segments-strand1-onlySegments.tsv'
 
 #gene_id = 'gene-PB2'
 #gene_id = 'gene-HA'
 #gene_id = 'gene-NS1'
 #gene_id = 'gene-PA'
 
-gene_ids = ['gene-HA','gene-MP','gene-NA','gene-NP','gene-NS1','gene-PA','gene-PB1','gene-PB2']
+#gene_ids = ['gene-HA','gene-MP','gene-NA','gene-NP','gene-NS1','gene-PA','gene-PB1','gene-PB2']
+#for gene_id in gene_ids:
+#    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
+
+############## 2026-07-08
+## Influenza Segments - STRAND 2 and rerun with annotation that includes mRNA and vRNAs 
+tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/counts-tpm-remove-mRNA-NP_mock1_and_mRNA-PB1_mock3_and_vRNA-HA_mock2-count1-segments-strand2-vRNAmRNA.tsv'
+pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-without-mock-segments-strand2-vRNAmRNA.tsv'
+
+#gene_id = 'gene-PB2'
+#gene_id = 'gene-HA'
+#gene_id = 'gene-NS1'
+#gene_id = 'gene-PA'
+
+gene_ids = [
+    'gene-mRNA-HA', 'gene-mRNA-MP', 'gene-mRNA-NA', 'gene-mRNA-NP',
+    'gene-mRNA-NS1', 'gene-mRNA-PA', 'gene-mRNA-PB1', 'gene-mRNA-PB2',
+    'gene-vRNA-HA', 'gene-vRNA-MP', 'gene-vRNA-NA', 'gene-vRNA-NP',
+    'gene-vRNA-NS1', 'gene-vRNA-PA', 'gene-vRNA-PB1', 'gene-vRNA-PB2']
 for gene_id in gene_ids:
     plot_tpm_boxplot(tpm_file, pval_file, gene_id)
 

@@ -94,7 +94,7 @@ conda activate pandas
 python scripts/boxplot-tpm-adjp.py
 ```
 
-### 2025-05-20 with `--strand 2` counting, based on human + vRNA/mRNA counting
+### 2025-07-08 with `--strand 2` counting, based on human + vRNA/mRNA counting
 
 Personal note: see for raw data: `/Users/martin/projects/2024-04-16-manual-DESeq-Agustina/2025-05-19-deseq2-for-vRNAmRNA` (includes fixed annotations)
 
@@ -102,19 +102,14 @@ Personal note: see for raw data: `/Users/martin/projects/2024-04-16-manual-DESeq
 # Create a table of TPM normalized epxression values for the eight segments 
 ruby scripts/combine-counts-segments-strand2-vRNAmRNA.rb # results in input-data/counts-tpm-segments-strand2-vRNAmRNA.tsv
 
-TODO MARTIN: probably copy from HPC the correct TPM value files, similar to 
-input-data/segments-strand2
-and run the above script
-
-
 #TODO double check how to clean that file... make a note in the methods gdocs
-cp counts-tpm-segments-strand2-vRNAmRNA.tsv counts-tpm-remove-NP_mock1_and_PB1_mock3-count1-segments-strand1.tsv # bc count 1 only for mock in rep1 and 3 for NP and PB1 genes...  + renamed N1 to NA
+cp input-data/counts-tpm-segments-strand2-vRNAmRNA.tsv input-data/counts-tpm-remove-mRNA-NP_mock1_and_mRNA-PB1_mock3_and_vRNA-HA_mock2-count1-segments-strand2-vRNAmRNA.tsv # bc count 1 only for individual mock replicates for NP and PB1 mRNAs (rep1 and 3, respectively) and HA vRNA (rep2) 
 
 # generate a table with adjusted p-values for all pairwise comparisons (mock-avian, mock-swine, mock-reass, avian-swine, ...) 
-# TODO: script is adjusted, but only finds 14 genes? two are missing? must be 16.... 8x vRNA and 8x mRNA
 ruby scripts/combine-pvalues-segments-strand2-vRNAmRNA.rb # results in input-data/pvals-segments-strand2-vRNAmRNA.tsv
 cd input-data
-awk '{print $1"\t"$2"\t"$5"\t"$7}' pvals-segments-strand1.tsv > pvals-without-mock-segments-strand1.tsv # + renamed N1 to NA and M1 to MP
+awk '{print $1"\t"$2"\t"$5"\t"$7}' pvals-segments-strand2-vRNAmRNA.tsv > pvals-without-mock-segments-strand2-vRNAmRNA.tsv # remove mock columns 
+
 
 conda activate pandas
 # change the input files and output in the script:
