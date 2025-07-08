@@ -43,7 +43,7 @@ Personal note: see for raw data `/Users/martin/projects/2024-04-16-manual-DESeq-
 
 ```bash
 # Create a table of TPM normalized epxression values for the eight segments (similar to the TPM table above)
-ruby scripts/combine-counts-segments.rb # results in TPMs/counts-tpm-segments.tsv
+ruby scripts/combine-counts-segments.rb # results in input-data/counts-tpm-segments.tsv
 cp input-data/counts-tpm-segments.tsv input-data/counts-tpm-remove-HA-mock2-count1-segments.tsv # manually modified, bc count 1 only for mock and rep2 for HA gene...  + renamed N1 to NA and M1 to MP
 
 # generate a table with adjusted p-values for all pairwise comparisons (mock-avian, mock-swine, mock-reass, avian-swine, ...) 
@@ -61,7 +61,7 @@ Personal note: calculated the `DESeq2` results again similar to `/Users/martin/p
 
 ```bash
 # Create a table of TPM normalized epxression values for the eight segments 
-ruby scripts/combine-counts-segments-strand1.rb # results in TPMs/counts-tpm-segments-strand1.tsv
+ruby scripts/combine-counts-segments-strand1.rb # results in input-data/counts-tpm-segments-strand1.tsv
 cp counts-tpm-segments-strand1.tsv counts-tpm-remove-NP_mock1_and_PB1_mock3-count1-segments-strand1.tsv # bc count 1 only for mock in rep1 and 3 for NP and PB1 genes...  + renamed N1 to NA
 
 # generate a table with adjusted p-values for all pairwise comparisons (mock-avian, mock-swine, mock-reass, avian-swine, ...) 
@@ -81,7 +81,7 @@ Personal note: New `DESeq2` results are here: `/Users/martin/projects/2024-04-16
 ```bash
 # KEEP THE SAME TPM VALUES: but really the quesiton if they make so much sense... they are calculated by RNAflow together with counting --strand 1 reads for human genes which is not the correct counting for human (probably counted very few reads for human) 
 # Create a table of TPM normalized epxression values for the eight segments 
-#ruby scripts/combine-counts-segments-strand1.rb # results in TPMs/counts-tpm-segments-strand1.tsv
+#ruby scripts/combine-counts-segments-strand1.rb # results in input-data/counts-tpm-segments-strand1.tsv
 #cp counts-tpm-segments-strand1.tsv counts-tpm-remove-NP_mock1_and_PB1_mock3-count1-segments-strand1.tsv # bc count 1 only for mock in rep1 and 3 for NP and PB1 genes...  + renamed N1 to NA
 
 # generate a table with adjusted p-values for all pairwise comparisons (mock-avian, mock-swine, mock-reass, avian-swine, ...) 
@@ -93,4 +93,33 @@ conda activate pandas
 # change the input files and output in the script:
 python scripts/boxplot-tpm-adjp.py
 ```
+
+### 2025-05-20 with `--strand 2` counting, based on human + vRNA/mRNA counting
+
+Personal note: see for raw data: `/Users/martin/projects/2024-04-16-manual-DESeq-Agustina/2025-05-19-deseq2-for-vRNAmRNA` (includes fixed annotations)
+
+```bash
+# Create a table of TPM normalized epxression values for the eight segments 
+ruby scripts/combine-counts-segments-strand2-vRNAmRNA.rb # results in input-data/counts-tpm-segments-strand2-vRNAmRNA.tsv
+
+TODO MARTIN: probably copy from HPC the correct TPM value files, similar to 
+input-data/segments-strand2
+and run the above script
+
+
+#TODO double check how to clean that file... make a note in the methods gdocs
+cp counts-tpm-segments-strand2-vRNAmRNA.tsv counts-tpm-remove-NP_mock1_and_PB1_mock3-count1-segments-strand1.tsv # bc count 1 only for mock in rep1 and 3 for NP and PB1 genes...  + renamed N1 to NA
+
+# generate a table with adjusted p-values for all pairwise comparisons (mock-avian, mock-swine, mock-reass, avian-swine, ...) 
+# TODO: script is adjusted, but only finds 14 genes? two are missing? must be 16.... 8x vRNA and 8x mRNA
+ruby scripts/combine-pvalues-segments-strand2-vRNAmRNA.rb # results in input-data/pvals-segments-strand2-vRNAmRNA.tsv
+cd input-data
+awk '{print $1"\t"$2"\t"$5"\t"$7}' pvals-segments-strand1.tsv > pvals-without-mock-segments-strand1.tsv # + renamed N1 to NA and M1 to MP
+
+conda activate pandas
+# change the input files and output in the script:
+python scripts/boxplot-tpm-adjp.py
+```
+
+
 
