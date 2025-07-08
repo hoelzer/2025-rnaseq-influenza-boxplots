@@ -110,7 +110,6 @@ ruby scripts/combine-pvalues-segments-strand2-vRNAmRNA.rb # results in input-dat
 cd input-data
 awk '{print $1"\t"$2"\t"$5"\t"$7}' pvals-segments-strand2-vRNAmRNA.tsv > pvals-without-mock-segments-strand2-vRNAmRNA.tsv # remove mock columns 
 
-
 conda activate pandas
 # change the input files and output in the script:
 python scripts/boxplot-tpm-adjp.py
