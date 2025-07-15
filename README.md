@@ -113,6 +113,10 @@ awk '{print $1"\t"$2"\t"$5"\t"$7}' pvals-segments-strand2-vRNAmRNA.tsv > pvals-w
 conda activate pandas
 # change the input files and output in the script:
 python scripts/boxplot-tpm-adjp.py
+
+# plot a grid view box plot for many segment IDs
+python scripts/boxplot-tpm-adjp-summarized-segments.py
+
 ```
 
 
