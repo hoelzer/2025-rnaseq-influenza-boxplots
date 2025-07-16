@@ -59,11 +59,26 @@ def plot_combined_boxplot(all_data_df, pvals_dict):
     # filer Mock values - always 0 anyway
     all_data_df = all_data_df[all_data_df['Virus'] != 'Mock']
 
+
     y_max = all_data_df['TPM'].max()
     y_min = all_data_df['TPM'].min()
     use_log_scale = y_max / max(y_min, 0.1) > 100
 
     all_data_df['Virus_Gene'] = all_data_df['Gene'] + "\n" + all_data_df['Virus']
+
+    # rename NS1 to NS
+    all_data_df['Gene'] = all_data_df['Gene'].replace({
+        'mRNA-NS1': 'mRNA-NS',
+        'vRNA-NS1': 'vRNA-NS'
+    })
+
+    # Define gene order
+    segment_order = ['PB2', 'PB1', 'PA', 'HA', 'NP', 'NA', 'MP', 'NS']
+    gene_order = [f'mRNA-{seg}' for seg in segment_order] + [f'vRNA-{seg}' for seg in segment_order]
+
+    # Sort data accordingly
+    all_data_df['Gene'] = pd.Categorical(all_data_df['Gene'], categories=gene_order, ordered=True)
+    all_data_df = all_data_df.sort_values(by=['Gene', 'Virus'])
 
     # plot width
     plt.figure(figsize=(max(6, len(all_data_df['Virus_Gene'].unique()) * 0.4), 6))
@@ -80,6 +95,16 @@ def plot_combined_boxplot(all_data_df, pvals_dict):
 
     # Remove Virus names for plotting to save space
     ax.set_xticklabels(all_data_df['Gene'].unique(), rotation=45, ha='right')
+
+    # vertical line between mRNA and vRNA
+    ax.axvline(x=24 - 0.5, color='grey', linestyle='--')
+    ax.text(11.5, y_max * 1.05, 'mRNA', ha='center', fontsize=10)
+    ax.text(35.5, y_max * 1.05, 'vRNA', ha='center', fontsize=10)
+
+    # shade bg of mRNA
+    ax.axvspan(-0.5, 23.5, color='lightgrey', alpha=0.15)
+    # shade bg of vRNA
+    ax.axvspan(23.5, 47.5, color='lightblue', alpha=0.15)
 
     if use_log_scale:
         plt.yscale('log')
