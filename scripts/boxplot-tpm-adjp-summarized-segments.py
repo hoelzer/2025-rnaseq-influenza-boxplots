@@ -78,6 +78,11 @@ def plot_combined_boxplot(all_data_df, pvals_dict):
 
     # Sort data accordingly
     all_data_df['Gene'] = pd.Categorical(all_data_df['Gene'], categories=gene_order, ordered=True)
+
+    # Set desired order for viruses
+    virus_order = ['Avian', 'Swine', 'Reassortant']
+    all_data_df['Virus'] = pd.Categorical(all_data_df['Virus'], categories=virus_order, ordered=True)
+
     all_data_df = all_data_df.sort_values(by=['Gene', 'Virus'])
 
     # plot width
