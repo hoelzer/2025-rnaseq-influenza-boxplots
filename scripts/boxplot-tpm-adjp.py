@@ -163,10 +163,15 @@ pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rn
 # IFNL1 ENSG00000182393
 # IFNL2 ENSG00000183709
 # IFNL3 ENSG00000197110
-gene_ids = ['ENSG00000105559', 'ENSG00000185885', 'ENSG00000197110', 'ENSG00000183709', 'ENSG00000182393']
+#gene_ids = ['ENSG00000105559', 'ENSG00000185885', 'ENSG00000197110', 'ENSG00000183709', 'ENSG00000182393']
+#for gene_id in gene_ids:
+#    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
+
+# additional gene for Fig3 replacing CASP3
+# IFNA5 ENSG00000147873
+gene_ids = ['ENSG00000147873']
 for gene_id in gene_ids:
     plot_tpm_boxplot(tpm_file, pval_file, gene_id)
-
 
 #plot_tpm_boxplot(tpm_file, pval_file, gene_id)
 
