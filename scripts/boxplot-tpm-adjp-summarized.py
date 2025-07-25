@@ -133,9 +133,14 @@ def plot_combined_boxplot(all_data_df, pvals_dict):
             offset_counter += 1
 
     plt.tight_layout()
-    plt.savefig('combined_summary_boxplot_with_pvalues.pdf')
-    plt.savefig('combined_summary_boxplot_with_pvalues.png', dpi=300)
-    plt.savefig('combined_summary_boxplot_with_pvalues.svg')
+    # main
+    #plt.savefig('combined_summary_boxplot_with_pvalues.pdf')
+    #plt.savefig('combined_summary_boxplot_with_pvalues.png', dpi=300)
+    #plt.savefig('combined_summary_boxplot_with_pvalues.svg')
+    # supp
+    plt.savefig('combined_summary_boxplot_with_pvalues_supp.pdf')
+    plt.savefig('combined_summary_boxplot_with_pvalues_supp.png', dpi=300)
+    plt.savefig('combined_summary_boxplot_with_pvalues_supp.svg')
     plt.show()
 
 # === MAIN execution ===
@@ -143,7 +148,11 @@ def plot_combined_boxplot(all_data_df, pvals_dict):
 tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/tpms-human.tsv'
 pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-virus-comparisons.tsv'
 
-gene_ids = ['ENSG00000119922', 'ENSG00000182393', 'ENSG00000271503', 'ENSG00000135114', 'ENSG00000173110', 'ENSG00000171855', 'ENSG00000157601']
+# Main Figure
+#gene_ids = ['ENSG00000119922', 'ENSG00000182393', 'ENSG00000271503', 'ENSG00000135114', 'ENSG00000173110', 'ENSG00000171855', 'ENSG00000157601']
+
+# Supplement
+gene_ids = ['ENSG00000182393', 'ENSG00000183709', 'ENSG00000197110', 'ENSG00000105559', 'ENSG00000185885']
 
 all_data = []
 pvals_dict = {}

@@ -147,15 +147,26 @@ def plot_tpm_boxplot(tpm_file, pval_file, gene_id):
 
 #############
 ## Human genes
-#tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/tpms-human.tsv'
+tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/tpms-human.tsv'
 #pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals.tsv' # this is old, bc we use now all virus comparisons except vs mock 
 #pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-all-human-comparisons.tsv' # this is old, bc we use now all virus comparisons except vs mock
-#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-virus-comparisons.tsv'
+pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-virus-comparisons.tsv'
 
 #gene_id = 'ENSG00000225855'
 #gene_id = 'ENSG00000107201' # DDX58
 #gene_id = 'ENSG00000182393'	# IFNL1
 #gene_id = "ENSG00000182782"
+
+# for supplement
+# PLEKHA4 ENSG00000105559
+# IFITM1    ENSG00000185885
+# IFNL1 ENSG00000182393
+# IFNL2 ENSG00000183709
+# IFNL3 ENSG00000197110
+gene_ids = ['ENSG00000105559', 'ENSG00000185885', 'ENSG00000197110', 'ENSG00000183709', 'ENSG00000182393']
+for gene_id in gene_ids:
+    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
+
 
 #plot_tpm_boxplot(tpm_file, pval_file, gene_id)
 
@@ -330,21 +341,21 @@ def plot_tpm_boxplot(tpm_file, pval_file, gene_id):
 
 ############## 2026-07-08
 ## Influenza Segments - STRAND 2 and rerun with annotation that includes mRNA and vRNAs 
-tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/counts-tpm-remove-mRNA-NP_mock1_and_mRNA-PB1_mock3_and_vRNA-HA_mock2-count1-segments-strand2-vRNAmRNA.tsv'
-pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-without-mock-segments-strand2-vRNAmRNA.tsv'
+#tpm_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/counts-tpm-remove-mRNA-NP_mock1_and_mRNA-PB1_mock3_and_vRNA-HA_mock2-count1-segments-strand2-vRNAmRNA.tsv'
+#pval_file = '/Users/martin/projects/2025-03-13-Influenza-RNASeq-Agustina/2025-rnaseq-boxplots-for-paper/input-data/pvals-without-mock-segments-strand2-vRNAmRNA.tsv'
 
 #gene_id = 'gene-PB2'
 #gene_id = 'gene-HA'
 #gene_id = 'gene-NS1'
 #gene_id = 'gene-PA'
 
-gene_ids = [
-    'gene-mRNA-HA', 'gene-mRNA-MP', 'gene-mRNA-NA', 'gene-mRNA-NP',
-    'gene-mRNA-NS1', 'gene-mRNA-PA', 'gene-mRNA-PB1', 'gene-mRNA-PB2',
-    'gene-vRNA-HA', 'gene-vRNA-MP', 'gene-vRNA-NA', 'gene-vRNA-NP',
-    'gene-vRNA-NS1', 'gene-vRNA-PA', 'gene-vRNA-PB1', 'gene-vRNA-PB2']
-for gene_id in gene_ids:
-    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
+#gene_ids = [
+#    'gene-mRNA-HA', 'gene-mRNA-MP', 'gene-mRNA-NA', 'gene-mRNA-NP',
+#    'gene-mRNA-NS1', 'gene-mRNA-PA', 'gene-mRNA-PB1', 'gene-mRNA-PB2',
+#    'gene-vRNA-HA', 'gene-vRNA-MP', 'gene-vRNA-NA', 'gene-vRNA-NP',
+#    'gene-vRNA-NS1', 'gene-vRNA-PA', 'gene-vRNA-PB1', 'gene-vRNA-PB2']
+#for gene_id in gene_ids:
+#    plot_tpm_boxplot(tpm_file, pval_file, gene_id)
 
 
 
