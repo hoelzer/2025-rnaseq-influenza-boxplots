@@ -29,14 +29,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="0.57943472"
-     inkscape:cx="979.40282"
-     inkscape:cy="392.62404"
-     inkscape:window-width="1470"
-     inkscape:window-height="891"
-     inkscape:window-x="0"
-     inkscape:window-y="37"
-     inkscape:window-maximized="1"
+     inkscape:zoom="0.61722067"
+     inkscape:cx="695.86134"
+     inkscape:cy="392.08019"
+     inkscape:window-width="1699"
+     inkscape:window-height="1060"
+     inkscape:window-x="1848"
+     inkscape:window-y="121"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg5214" />
   <metadata
      id="metadata3141">
@@ -56,6 +56,12 @@
   </metadata>
   <defs
      id="defs3145">
+    <rect
+       x="72.907474"
+       y="570.70351"
+       width="321.60297"
+       height="58.325979"
+       id="rect2183" />
     <rect
        x="1046.4407"
        y="123.86441"
@@ -119,6 +125,54 @@
        width="345.96609"
        height="97.016953"
        id="rect13135" />
+    <rect
+       x="134.4838"
+       y="-197.65041"
+       width="601.10175"
+       height="232.29018"
+       id="rect15587" />
+    <rect
+       x="134.4838"
+       y="-197.65041"
+       width="601.10175"
+       height="232.29018"
+       id="rect15593" />
+    <rect
+       x="134.4838"
+       y="-197.65041"
+       width="601.10175"
+       height="232.29018"
+       id="rect15599" />
+    <rect
+       x="134.4838"
+       y="-197.65041"
+       width="601.10175"
+       height="232.29018"
+       id="rect15605" />
+    <rect
+       x="72.907474"
+       y="570.70351"
+       width="321.60297"
+       height="58.325979"
+       id="rect2297" />
+    <rect
+       x="72.907474"
+       y="570.70351"
+       width="321.60297"
+       height="58.325979"
+       id="rect2305" />
+    <rect
+       x="72.907474"
+       y="570.70351"
+       width="321.60297"
+       height="58.325979"
+       id="rect2313" />
+    <rect
+       x="72.907474"
+       y="570.70351"
+       width="321.60297"
+       height="58.325979"
+       id="rect2333" />
   </defs>
   <rect
      style="fill:#ffffff;stroke:none;stroke-width:1.1;stroke-dasharray:1.1, 2.2;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
@@ -3414,38 +3468,6 @@
        style="opacity:0.8;fill:#ffffff;stroke:#cccccc;stroke-linejoin:miter"
        id="path5116" />
   </g>
-  <g
-     id="patch_32"
-     transform="translate(-168.63079,-22.098983)">
-    <path
-       d="m 1052.2102,57.436562 h 20 v -7 h -20 z"
-       style="fill:#ffffff;stroke:#787878;stroke-linejoin:miter"
-       id="path5132" />
-  </g>
-  <g
-     id="patch_33"
-     transform="translate(-168.63079,-22.098983)">
-    <path
-       d="m 1052.2102,72.114688 h 20 v -7 h -20 z"
-       style="fill:#e8adad;stroke:#787878;stroke-linejoin:miter"
-       id="path5146" />
-  </g>
-  <g
-     id="patch_34"
-     transform="translate(-168.63079,-22.098983)">
-    <path
-       d="m 1052.2102,86.792812 h 20 v -7 h -20 z"
-       style="fill:#bdf0b7;stroke:#787878;stroke-linejoin:miter"
-       id="path5162" />
-  </g>
-  <g
-     id="patch_35"
-     transform="translate(-168.63079,-22.098983)">
-    <path
-       d="m 1052.2102,101.47094 h 20 v -7.000003 h -20 z"
-       style="fill:#a6c0ea;stroke:#787878;stroke-linejoin:miter"
-       id="path5178" />
-  </g>
   <defs
      id="defs5212">
     <clipPath
@@ -3458,139 +3480,6 @@
          id="rect5209" />
     </clipPath>
   </defs>
-  <text
-     xml:space="preserve"
-     transform="matrix(0.75,0,0,0.75,16.721253,-24.387119)"
-     id="text8147"
-     style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;white-space:pre;shape-inside:url(#rect8149);display:inline;fill:#000000;stroke:#000000;stroke-width:1.46667"><tspan
-       x="1189.1895"
-       y="138.27731"
-       id="tspan18858"><tspan
-         style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan18856">5:3 virus</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     transform="matrix(0.75,0,0,0.75,10.346254,-38.219228)"
-     id="text8759"
-     style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;white-space:pre;shape-inside:url(#rect8761);display:inline;fill:#000000;stroke:#000000;stroke-width:1.46667"><tspan
-       x="1197.6348"
-       y="138.27731"
-       id="tspan18862"><tspan
-         style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan18860">Swine</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     transform="matrix(0.75,0,0,0.75,9.4614885,-52.967664)"
-     id="text8765"
-     style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;white-space:pre;shape-inside:url(#rect8767);display:inline;fill:#000000;stroke:#000000;stroke-width:1.46667"><tspan
-       x="1199.5566"
-       y="138.27731"
-       id="tspan18866"><tspan
-         style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan18864">Avian</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     transform="matrix(0.75,0,0,0.75,7.9878555,-67.64579)"
-     id="text8771"
-     style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;white-space:pre;shape-inside:url(#rect8773);display:inline;fill:#000000;stroke:#000000;stroke-width:1.46667"><tspan
-       x="1200.3105"
-       y="138.27731"
-       id="tspan18870"><tspan
-         style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-         id="tspan18868">Mock</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     transform="matrix(0.75,0,0,0.75,-15.554517,-82.061044)"
-     id="text8777"
-     style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;white-space:pre;shape-inside:url(#rect8779);display:inline;fill:#000000;stroke:#000000;stroke-width:1.46667"><tspan
-       x="1199.5605"
-       y="138.27731"
-       id="tspan18874"><tspan
-         style="stroke:none"
-         id="tspan18872">Virus</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     transform="matrix(0.75,0,0,0.75,-750.83284,235.02854)"
-     id="text11022"
-     style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;white-space:pre;shape-inside:url(#rect11024);display:inline;fill:#000000;stroke:#000000;stroke-width:1.46667;stroke-linecap:butt;stroke-linejoin:round"><tspan
-       x="1197.2012"
-       y="138.27731"
-       id="tspan18878">IFNL1<tspan
-   style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-   id="tspan18876">
-</tspan></tspan><tspan
-       x="1155.3062"
-       y="158.27731"
-       id="tspan18882"><tspan
-         style="font-size:13.3333px"
-         id="tspan18880">(ENSG00000182393)</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     transform="matrix(0.75,0,0,0.75,-577.02113,235.02854)"
-     id="text11963"
-     style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;white-space:pre;shape-inside:url(#rect11965);display:inline;fill:#000000;stroke:#000000;stroke-width:1.46667;stroke-linecap:butt;stroke-linejoin:round"><tspan
-       x="1197.2012"
-       y="138.27731"
-       id="tspan18886">IFNL2<tspan
-   style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-   id="tspan18884">
-</tspan></tspan><tspan
-       x="1155.3062"
-       y="158.27731"
-       id="tspan18890"><tspan
-         style="font-size:13.3333px"
-         id="tspan18888">(ENSG00000183709)</tspan></tspan></text>
-  <text
-     xml:space="preserve"
-     transform="matrix(0.75,0,0,0.75,-403.20941,235.02854)"
-     id="text11991"
-     style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;white-space:pre;shape-inside:url(#rect11993);display:inline;fill:#000000;stroke:#000000;stroke-width:1.46667;stroke-linecap:butt;stroke-linejoin:round"><tspan
-       x="1197.2012"
-       y="138.27731"
-       id="tspan18894">IFNL3<tspan
-   style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-   id="tspan18892">
-</tspan></tspan><tspan
-       x="1155.8009"
-       y="158.27731"
-       id="tspan18898"><tspan
-         style="font-size:13.3333px"
-         id="tspan18896">(ENSG00000197110)</tspan></tspan></text>
-  <g
-     id="g14263">
-    <text
-       xml:space="preserve"
-       transform="matrix(0.75,0,0,0.75,-229.3977,235.02854)"
-       id="text13121"
-       style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;white-space:pre;shape-inside:url(#rect13123);display:inline;fill:#000000;stroke:#000000;stroke-width:1.46667;stroke-linecap:butt;stroke-linejoin:round"><tspan
-         x="1182.084"
-         y="138.27731"
-         id="tspan18902">PLEKHA4<tspan
-   style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-   id="tspan18900">
-</tspan></tspan><tspan
-         x="1155.3062"
-         y="158.27731"
-         id="tspan18906"><tspan
-           style="font-size:13.3333px"
-           id="tspan18904">(ENSG00000105559)</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.75,0,0,0.75,-55.585964,235.02854)"
-       id="text13133"
-       style="font-weight:bold;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;white-space:pre;shape-inside:url(#rect13135);display:inline;fill:#000000;stroke:#000000;stroke-width:1.46667;stroke-linecap:butt;stroke-linejoin:round"><tspan
-         x="1194.0918"
-         y="138.27731"
-         id="tspan18910">IFITM1<tspan
-   style="font-weight:normal;-inkscape-font-specification:Arial;stroke:none"
-   id="tspan18908">
-</tspan></tspan><tspan
-         x="1155.3062"
-         y="158.27731"
-         id="tspan18914"><tspan
-           style="font-size:13.3333px"
-           id="tspan18912">(ENSG00000185885)</tspan></tspan></text>
-  </g>
   <path
      style="fill:none;stroke:#000000;stroke-width:1.1;stroke-dasharray:1.1, 2.2;stroke-dashoffset:0;stroke-opacity:1"
      d="M 250.76296,13.950208 V 316.83161"
@@ -3607,4 +3496,165 @@
      style="fill:none;stroke:#000000;stroke-width:1.1;stroke-dasharray:1.1, 2.2;stroke-dashoffset:0;stroke-opacity:1"
      d="M 772.19811,13.950208 V 316.83161"
      id="path14265" />
+  <g
+     id="g7592"
+     transform="matrix(3.2044461,0,0,3.2055234,860.27415,-548.38408)"
+     style="stroke-width:0.884449">
+    <g
+       id="patch_32-0"
+       transform="matrix(0.35277777,0,0,0.35277777,-363.2403,158.78722)"
+       style="stroke-width:0.884449;stroke-linecap:butt;stroke-linejoin:round">
+      <path
+         d="m 1052.2102,57.436562 h 20 v -7 h -20 z"
+         style="fill:#ffffff;stroke:#787878;stroke-width:0.884449;stroke-linecap:butt;stroke-linejoin:miter"
+         id="path5132-2" />
+    </g>
+    <g
+       id="patch_33-3"
+       transform="matrix(0.35277777,0,0,0.35277777,-363.2403,158.78722)"
+       style="stroke-width:0.884449;stroke-linecap:butt;stroke-linejoin:round">
+      <path
+         d="m 1052.2102,72.114688 h 20 v -7 h -20 z"
+         style="fill:#e8adad;stroke:#787878;stroke-width:0.884449;stroke-linecap:butt;stroke-linejoin:miter"
+         id="path5146-9" />
+    </g>
+    <g
+       id="patch_34-9"
+       transform="matrix(0.35277777,0,0,0.35277777,-363.2403,158.78722)"
+       style="stroke-width:0.884449;stroke-linecap:butt;stroke-linejoin:round">
+      <path
+         d="m 1052.2102,86.792812 h 20 v -7 h -20 z"
+         style="fill:#bdf0b7;stroke:#787878;stroke-width:0.884449;stroke-linecap:butt;stroke-linejoin:miter"
+         id="path5162-7" />
+    </g>
+    <g
+       id="patch_35-0"
+       transform="matrix(0.35277777,0,0,0.35277777,-363.2403,158.78722)"
+       style="stroke-width:0.884449;stroke-linecap:butt;stroke-linejoin:round">
+      <path
+         d="m 1052.2102,101.47094 h 20 v -7.000003 h -20 z"
+         style="fill:#a6c0ea;stroke:#787878;stroke-width:0.884449;stroke-linecap:butt;stroke-linejoin:miter"
+         id="path5178-3" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-17.239321,233.35656)"
+       id="text15585"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect15587);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.50426;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"><tspan
+         x="134.48438"
+         y="-185.64036"
+         id="tspan3753">Av-H5N1</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-17.506316,228.17414)"
+       id="text15591"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect15593);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.50426;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"><tspan
+         x="134.48438"
+         y="-185.64036"
+         id="tspan3755">Mock</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-17.402963,238.55104)"
+       id="text15597"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect15599);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.50426;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"><tspan
+         x="134.48438"
+         y="-185.64036"
+         id="tspan3757">Sw-H1N1</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-17.402963,243.7283)"
+       id="text15603"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect15605);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.50426;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"><tspan
+         x="134.48438"
+         y="-185.64036"
+         id="tspan3759">Sw5:Av3</tspan></text>
+  </g>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.75,0,0,0.75,-24.702091,-97.900177)"
+     id="text2181"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2183);fill:#ffffff;stroke-width:1.0885"><tspan
+       x="211.48633"
+       y="585.1152"
+       id="tspan3765"><tspan
+         style="font-weight:bold;-inkscape-font-specification:'Arial Bold'"
+         id="tspan3761">IFNL1</tspan><tspan
+         style="fill:#000000"
+         id="tspan3763">
+</tspan></tspan><tspan
+       x="156.76758"
+       y="605.1152"
+       id="tspan3769"><tspan
+         style="fill:#000000"
+         id="tspan3767">(ENSG00000182393)</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.75,0,0,0.75,154.64611,-97.900177)"
+     id="text2295"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2297);fill:#ffffff;stroke-width:1.0885"><tspan
+       x="211.48633"
+       y="585.1152"
+       id="tspan3775"><tspan
+         style="font-weight:bold;-inkscape-font-specification:'Arial Bold'"
+         id="tspan3771">IFNL2</tspan><tspan
+         style="fill:#000000"
+         id="tspan3773">
+</tspan></tspan><tspan
+       x="156.76758"
+       y="605.1152"
+       id="tspan3779"><tspan
+         style="fill:#000000"
+         id="tspan3777">(ENSG00000183709)</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.75,0,0,0.75,333.99431,-97.900177)"
+     id="text2303"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2305);fill:#ffffff;stroke-width:1.0885"><tspan
+       x="211.48633"
+       y="585.1152"
+       id="tspan3785"><tspan
+         style="font-weight:bold;-inkscape-font-specification:'Arial Bold'"
+         id="tspan3781">IFNL3</tspan><tspan
+         style="fill:#000000"
+         id="tspan3783">
+</tspan></tspan><tspan
+       x="157.36133"
+       y="605.1152"
+       id="tspan3789"><tspan
+         style="fill:#000000"
+         id="tspan3787">(ENSG00000197110)</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.75,0,0,0.75,513.34252,-97.900177)"
+     id="text2311"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2313);fill:#ffffff;stroke-width:1.0885"><tspan
+       x="196.36914"
+       y="585.1152"
+       id="tspan3795"><tspan
+         style="font-weight:bold;-inkscape-font-specification:'Arial Bold'"
+         id="tspan3791">PLEKHA4</tspan><tspan
+         style="fill:#000000"
+         id="tspan3793">
+</tspan></tspan><tspan
+       x="156.76758"
+       y="605.1152"
+       id="tspan3799"><tspan
+         style="fill:#000000"
+         id="tspan3797">(ENSG00000105559)</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.75,0,0,0.75,692.69072,-97.900177)"
+     id="text2331"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2333);fill:#ffffff;stroke-width:1.0885"><tspan
+       x="208.37695"
+       y="585.1152"
+       id="tspan3803"><tspan
+         style="font-weight:bold;-inkscape-font-specification:'Arial Bold'"
+         id="tspan3801">IFITM1
+</tspan></tspan><tspan
+       x="156.76758"
+       y="605.1152"
+       id="tspan3807"><tspan
+         style="fill:#000000"
+         id="tspan3805">(ENSG00000185885)</tspan></tspan></text>
 </svg>
