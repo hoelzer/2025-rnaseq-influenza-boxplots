@@ -5,7 +5,7 @@
    viewBox="0 0 985.08295 378.2673"
    version="1.1"
    id="svg5214"
-   sodipodi:docname="combined_summary_boxplot_with_pvalues_supp.svg"
+   sodipodi:docname="Supp_Fig_3_combined_summary_boxplot_with_pvalues.svg"
    inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
    inkscape:export-filename="combined_summary_boxplot_with_pvalues_supp.png"
    inkscape:export-xdpi="300"
@@ -30,12 +30,12 @@
      inkscape:document-units="pt"
      showgrid="false"
      inkscape:zoom="0.61722067"
-     inkscape:cx="695.86134"
-     inkscape:cy="392.08019"
+     inkscape:cx="657.78743"
+     inkscape:cy="330.51388"
      inkscape:window-width="1699"
      inkscape:window-height="1060"
      inkscape:window-x="1848"
-     inkscape:window-y="121"
+     inkscape:window-y="93"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg5214" />
   <metadata
@@ -3543,7 +3543,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect15587);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.50426;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"><tspan
          x="134.48438"
          y="-185.64036"
-         id="tspan3753">Av-H5N1</tspan></text>
+         id="tspan4050">Av-H5N1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-17.506316,228.17414)"
@@ -3551,7 +3551,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect15593);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.50426;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"><tspan
          x="134.48438"
          y="-185.64036"
-         id="tspan3755">Mock</tspan></text>
+         id="tspan4052">Mock</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-17.402963,238.55104)"
@@ -3559,7 +3559,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect15599);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.50426;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"><tspan
          x="134.48438"
          y="-185.64036"
-         id="tspan3757">Sw-H1N1</tspan></text>
+         id="tspan4054">Sw-H1N1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-17.402963,243.7283)"
@@ -3567,94 +3567,94 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect15605);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.50426;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"><tspan
          x="134.48438"
          y="-185.64036"
-         id="tspan3759">Sw5:Av3</tspan></text>
+         id="tspan4056">Sw5:Av3</tspan></text>
   </g>
   <text
      xml:space="preserve"
      transform="matrix(0.75,0,0,0.75,-24.702091,-97.900177)"
      id="text2181"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2183);fill:#ffffff;stroke-width:1.0885"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2183);display:inline;fill:#ffffff;stroke-width:1.0885"><tspan
        x="211.48633"
        y="585.1152"
-       id="tspan3765"><tspan
-         style="font-weight:bold;-inkscape-font-specification:'Arial Bold'"
-         id="tspan3761">IFNL1</tspan><tspan
+       id="tspan4062"><tspan
+         style="font-weight:bold;-inkscape-font-specification:'Arial Bold';fill:#000000"
+         id="tspan4058">IFNL1</tspan><tspan
          style="fill:#000000"
-         id="tspan3763">
+         id="tspan4060">
 </tspan></tspan><tspan
        x="156.76758"
        y="605.1152"
-       id="tspan3769"><tspan
+       id="tspan4066"><tspan
          style="fill:#000000"
-         id="tspan3767">(ENSG00000182393)</tspan></tspan></text>
+         id="tspan4064">(ENSG00000182393)</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.75,0,0,0.75,154.64611,-97.900177)"
      id="text2295"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2297);fill:#ffffff;stroke-width:1.0885"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2297);display:inline;fill:#ffffff;stroke-width:1.0885"><tspan
        x="211.48633"
        y="585.1152"
-       id="tspan3775"><tspan
-         style="font-weight:bold;-inkscape-font-specification:'Arial Bold'"
-         id="tspan3771">IFNL2</tspan><tspan
+       id="tspan4072"><tspan
+         style="font-weight:bold;-inkscape-font-specification:'Arial Bold';fill:#000000"
+         id="tspan4068">IFNL2</tspan><tspan
          style="fill:#000000"
-         id="tspan3773">
+         id="tspan4070">
 </tspan></tspan><tspan
        x="156.76758"
        y="605.1152"
-       id="tspan3779"><tspan
+       id="tspan4076"><tspan
          style="fill:#000000"
-         id="tspan3777">(ENSG00000183709)</tspan></tspan></text>
+         id="tspan4074">(ENSG00000183709)</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.75,0,0,0.75,333.99431,-97.900177)"
      id="text2303"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2305);fill:#ffffff;stroke-width:1.0885"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2305);display:inline;fill:#ffffff;stroke-width:1.0885"><tspan
        x="211.48633"
        y="585.1152"
-       id="tspan3785"><tspan
-         style="font-weight:bold;-inkscape-font-specification:'Arial Bold'"
-         id="tspan3781">IFNL3</tspan><tspan
+       id="tspan4082"><tspan
+         style="font-weight:bold;-inkscape-font-specification:'Arial Bold';fill:#000000"
+         id="tspan4078">IFNL3</tspan><tspan
          style="fill:#000000"
-         id="tspan3783">
+         id="tspan4080">
 </tspan></tspan><tspan
        x="157.36133"
        y="605.1152"
-       id="tspan3789"><tspan
+       id="tspan4086"><tspan
          style="fill:#000000"
-         id="tspan3787">(ENSG00000197110)</tspan></tspan></text>
+         id="tspan4084">(ENSG00000197110)</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.75,0,0,0.75,513.34252,-97.900177)"
      id="text2311"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2313);fill:#ffffff;stroke-width:1.0885"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2313);display:inline;fill:#ffffff;stroke-width:1.0885"><tspan
        x="196.36914"
        y="585.1152"
-       id="tspan3795"><tspan
-         style="font-weight:bold;-inkscape-font-specification:'Arial Bold'"
-         id="tspan3791">PLEKHA4</tspan><tspan
+       id="tspan4092"><tspan
+         style="font-weight:bold;-inkscape-font-specification:'Arial Bold';fill:#000000"
+         id="tspan4088">PLEKHA4</tspan><tspan
          style="fill:#000000"
-         id="tspan3793">
+         id="tspan4090">
 </tspan></tspan><tspan
        x="156.76758"
        y="605.1152"
-       id="tspan3799"><tspan
+       id="tspan4096"><tspan
          style="fill:#000000"
-         id="tspan3797">(ENSG00000105559)</tspan></tspan></text>
+         id="tspan4094">(ENSG00000105559)</tspan></tspan></text>
   <text
      xml:space="preserve"
      transform="matrix(0.75,0,0,0.75,692.69072,-97.900177)"
      id="text2331"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2333);fill:#ffffff;stroke-width:1.0885"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;white-space:pre;shape-inside:url(#rect2333);display:inline;fill:#ffffff;stroke-width:1.0885"><tspan
        x="208.37695"
        y="585.1152"
-       id="tspan3803"><tspan
-         style="font-weight:bold;-inkscape-font-specification:'Arial Bold'"
-         id="tspan3801">IFITM1
+       id="tspan4100"><tspan
+         style="font-weight:bold;-inkscape-font-specification:'Arial Bold';fill:#000000"
+         id="tspan4098">IFITM1
 </tspan></tspan><tspan
        x="156.76758"
        y="605.1152"
-       id="tspan3807"><tspan
+       id="tspan4104"><tspan
          style="fill:#000000"
-         id="tspan3805">(ENSG00000185885)</tspan></tspan></text>
+         id="tspan4102">(ENSG00000185885)</tspan></tspan></text>
 </svg>
